@@ -1,10 +1,7 @@
 {"groupings": [
   {
-    "group": "greeting",
+    "group": "greetings",
     "keywords": ["hi", "hello", "how are you", "good morning", "good evening", "good afternoon", "good day", "whats up", "hows it going", "nice to meet you"],
     "responses": ["Hello!", "Hi!", "Nice to see you", "Hey"]
-  },
-  {
-    "group": "goodbyes"
   }
 ]}

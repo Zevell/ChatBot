@@ -9,6 +9,6 @@ while True:
   userInput = input("")
   
   for group in groupings['groupings']:
-    for element in groupings['groupings']['keywords']:
-      if userInput.contains(element):
-        print(random.choice(groupings['groupings']['keywords']))
+    for keyword in group['keywords']:
+      if keyword in userInput:
+        print(random.choice(group['responses']))
